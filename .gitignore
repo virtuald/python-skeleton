@@ -1,0 +1,15 @@
+dist
+build
+MANIFEST
+
+*.py[cod]
+*.egg-info
+*.egg
+__pycache__
+
+.project
+.pydevproject
+.settings
+.coverage
+
+version.py
