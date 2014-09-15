@@ -2,7 +2,7 @@
 
 cd `dirname $0`
 
-PACKAGENAME=`ls ../src`
+PACKAGENAME=`ls ../src | grep -v egg-info`
 PYTHONPATH="../src" python -m coverage run --source $PACKAGENAME -m pytest $@
 if [ "$?" != "0" ]; then
 	exit 1
