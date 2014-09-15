@@ -50,7 +50,6 @@ setup(name='python_skeleton',
       package_dir={'': 'src'},
       packages=packages,
       scripts=scripts,
-      setup_requires=install_requires,
       install_requires=install_requires,
       )
 
